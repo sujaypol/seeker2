@@ -64,7 +64,7 @@ Along with Location Information we also get **Device Information** without any p
 ### Kali Linux / Ubuntu / Parrot OS
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/sujayxd/seeker.git
 cd seeker/
 chmod 777 install.sh
 ./install.sh
@@ -73,7 +73,7 @@ chmod 777 install.sh
 ### BlackArch Linux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/sujayxd/seeker.git
 cd seeker/
 chmod 777 arch_install.sh
 ./arch_install.sh
@@ -98,14 +98,14 @@ docker run -t --rm seeker
 
 # OR Pull from DockerHub
 
-docker pull thewhiteh4t/seeker
+docker pull sujayxd/seeker
 docker run -t seeker
 ```
 
 ### Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/sujayxd/seeker.git
 cd seeker/
 chmod 777 termux_install.sh
 ./termux_install.sh
@@ -131,6 +131,3 @@ python3 seeker.py --subdomain google
 
 * Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
 
-## Demo
-
-Youtube - https://www.youtube.com/watch?v=ggUGPq4cjSM
