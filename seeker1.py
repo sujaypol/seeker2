@@ -23,9 +23,9 @@ parser.add_argument('-s', '--subdomain', help='Provide Subdomain for Serveo URL 
 args = parser.parse_args()
 subdom = args.subdomain
 
-result = 'template/nearyou/php/result.txt'
-info = 'template/nearyou/php/info.txt'
-site = 'nearyou'
+result = 'template/spacemagic/php/result.txt'
+info = 'template/spacemagic/php/info.txt'
+site = 'aspacemagic'
 version = '1.1.3'
 
 def banner():
@@ -37,7 +37,7 @@ def banner():
  \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
 /____  > \___  >\___  >|__|_ \ \___  >|__|
 	 \/      \/     \/      \/     \/        ''' + W)
-	print ('\n' + G + '[>]' + C + ' Created By : ' + W + 'thewhiteh4t')
+	print ('\n' + G + '[>]' + C + ' Created By : ' + W + 'sujayxd')
 	print (G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def serveo():
